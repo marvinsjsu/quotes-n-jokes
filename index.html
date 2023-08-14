@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ted Lasso Quotes</title>
+  <link rel="icon" type="image/png" href="https://www.google.com/s2/u/0/favicons?domain=css-tricks.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container" id="container">
+    <div class="header"></div>
+    <div class="quote-container" id="quote-container">
+      <img id="loader-dancing-ted" src="./assets/ted-lasso-dance.gif" alt="Fetching Ted's quote" hidden>
+      <span id="quote"></span>
+    </div>
+    <div class="cta-container">
+      <button class="cta-btn" id="read-quote-btn">
+        <i class="fa-solid fa-play" id="read-quote-icon"></i>
+      </button>
+      <button class="cta-btn" id="get-quote-btn">
+        <i class="fa-solid fa-rotate-right" id="get-quote-icon"></i>
+      </button>
+    </div>
+    <audio id="audio" controls hidden></audio>
+  </div>
+  <!-- Script -->
+  <script src='./voicerss-tts.min.js'></script>
+  <script src="script.js"></script>
+</body>
+</html>
