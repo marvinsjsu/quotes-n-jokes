@@ -16,9 +16,9 @@ body {
 }
 
 .header {
-  height: 280px;
-  width: 440px;
-  margin: 20px 10px;
+  height: 140px;
+  width: 220px;
+  margin: 0;
   background-color: var(--ted-lasso-blue);
   background-image: url('./assets/believe-sign.png');
   background-position: top left;
@@ -37,20 +37,19 @@ body {
   align-items: center;
   background-color: var(--ted-lasso-blue);
   background-image: url('./assets/ted-lasso-bg.png');
-  background-size: contain;
+  background-size: 80%;
   background-position: right bottom;
   background-repeat: no-repeat;
 }
 
 .quote-container {
   position: relative;
-  left: -200px;
-  width: 500px;
+  width: 280px;
   color: var(--default-font-color);
-  font-size: 2.5rem;
+  font-size: 1.8rem;
   line-height: 1.5;
   text-transform: uppercase;
-  padding: 32px;
+  padding: 24px;
   margin: 0;
   background-color: #FFF;
   border: 7px solid red;
@@ -140,24 +139,51 @@ body {
   100% { transform: rotate(360deg); }
 }
 
-/* Media Queries: Tablet and smaller */
-@media screen and (max-width: 390px) {
-
-  .header {
-    height: 140px;
-    width: 220px;
-    margin: 8px 0;
-  }
-
+/* Media Queries: Mobile */
+@media screen and (min-width: 420px) {
   .container {
-    background-size: 100%;
-    background-position: right bottom;
+    background-size: 75%;
+  }
+}
+
+@media screen and (min-width: 520px) {
+  .container {
+    background-size: 70%;
   }
 
   .quote-container {
-    left: 0;
-    width: 280px;
-    font-size: 1.8rem;
+    width: 70%;
+    padding: 24px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .header {
+    height: 280px;
+    width: 440px;
+    margin: 20px 10px;
+    background-color: var(--ted-lasso-blue);
+    background-image: url('./assets/believe-sign.png');
+    background-position: top left;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    align-self: flex-start;
+  }
+
+  .quote-container {
+    position: relative;
+    left: -200px;
+    width: 500px;
+    color: var(--default-font-color);
+    font-size: 2.5rem;
     line-height: 1.5;
+    text-transform: uppercase;
+    padding: 32px;
+    margin: 0;
+    background-color: #FFF;
+    border: 7px solid red;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 2px 2px 30px 20px rgba(0, 0, 0, 0.2);
   }
 }
