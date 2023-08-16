@@ -21,8 +21,7 @@ come from [Ted Lasso Quotes API](https://tedlassoquotes.com/).
 
 ![Quotes-n-Jokes screenshot](https://marvinsjsu.github.io/portfolio/assets/quotes.png)
 
-<!-- [Live Demo](https://marvinsjsu.github.io/quotes-n-jokes) -->
-<a href="https://marvinsjsu.github.io/quotes-n-jokes" target="_blank">Live Demo</a>
+[Live Demo](https://marvinsjsu.github.io/quotes-n-jokes)
 
 ## Features
 
