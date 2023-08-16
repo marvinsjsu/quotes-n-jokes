@@ -1,7 +1,7 @@
 # Quotes-n-Jokes
 
-This is the back-end application that supports features for the MyMoments mobile app.
-
+Being a big fan of the show, Ted Lasso, I built this page to re-live some
+of its many funny moments.
 
 ## Table of Contents
 
@@ -14,9 +14,8 @@ This is the back-end application that supports features for the MyMoments mobile
 
 ## Project Description
 
-Being a big fan of the show, Ted Lasso, I built this page to re-live some
-of its many funny moments. It's built with plain JavaScript to manipulate
-the DOM and uses the [MediaDevices API](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) and [Voice RSS](https://www.voicerss.org/) for text-to-speech.  The quotes
+This project was built with HTML, CSS, and plain JavaScript to manipulate
+the DOM. It also uses the [MediaDevices API](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) and [Voice RSS](https://www.voicerss.org/) for text-to-speech.  The quotes
 come from [Ted Lasso Quotes API](https://tedlassoquotes.com/).
 
 ![Quotes-n-Jokes screenshot](https://marvinsjsu.github.io/portfolio/assets/quotes.png)
