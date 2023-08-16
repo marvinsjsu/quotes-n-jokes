@@ -141,9 +141,23 @@ body {
 }
 
 /* Media Queries: Tablet and smaller */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 390px) {
+
+  .header {
+    height: 140px;
+    width: 220px;
+    margin: 8px 0;
+  }
+
   .container {
-    background-size: cover;
-    background-position: center bottom;
+    background-size: 100%;
+    background-position: right bottom;
+  }
+
+  .quote-container {
+    left: 0;
+    width: 280px;
+    font-size: 1.8rem;
+    line-height: 1.5;
   }
 }
