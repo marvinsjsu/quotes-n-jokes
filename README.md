@@ -19,7 +19,7 @@ of its many funny moments. It's built with plain JavaScript to manipulate
 the DOM and uses the [MediaDevices API](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices) and [Voice RSS](https://www.voicerss.org/) for text-to-speech.  The quotes
 come from [Ted Lasso Quotes API](https://tedlassoquotes.com/).
 
-[Quotes-n-Jokes screenshot](https://marvinsjsu.github.io/portfolio/assets/quote.png)
+![Quotes-n-Jokes screenshot](https://marvinsjsu.github.io/portfolio/assets/quote.png)
 
 [Live Demo](https://marvinsjsu.github.io/quotes-n-jokes)
 
